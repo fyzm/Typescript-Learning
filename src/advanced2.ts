@@ -90,6 +90,3 @@ console.log(area({kind: 'circle',r:1}))
 
 
 
-
-
-
