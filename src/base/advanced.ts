@@ -19,7 +19,7 @@ let foo: Foo = {
 //foo.bar = 1
 
 let s: string = 'a'
-s = null
+//s = null
 
 
 //interface type
@@ -62,8 +62,8 @@ let c1 = (...args: number[]) => {}
 
 a1 = b1
 a1 = c1
-b1 = c1
-b1 = a1
+//b1 = c1
+//b1 = a1
 c1 = a1
 c1 =  b1
 
@@ -85,7 +85,7 @@ let p3d = (point: Point3D) => {}
 let p2d = (point: Point2D) => {}
 
 p3d = p2d
-p2d = p3d
+//p2d = p3d
 
 //return value
 
@@ -101,7 +101,7 @@ function overload(a: any, b: any): any {}
 //enum 
 
 enum Fruit {Apple,Banana}
-enum Color {Red,Yellow}
+//enum Color {Red,Yellow}
 
 let fruit: Fruit.Apple = 3
 let no: number = Fruit.Apple
